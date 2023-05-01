@@ -1,0 +1,272 @@
+{
+  "items": [
+    {
+      "accountId": 11112222,
+      "accountNumber": "123456789012",
+      "children": [
+        {
+          "type": {
+            "name": "Продукт",
+            "keyName": "COMPOSITE_PRODUCT"
+          },
+          "children": [
+            {
+              "type": {
+                "name": "Продукт",
+                "keyName": "SIMPLE_PRODUCT"
+              },
+              "children": [
+                {
+                  "type": {
+                    "name": "Сервис",
+                    "keyName": "SERVICE"
+                  },
+                  "children": [
+                    {
+                      "type": {
+                        "name": "Сервис",
+                        "keyName": "SERVICE"
+                      },
+                      "children": [],
+                      "code": "local_incoming",
+                      "name": "Входящая связь"
+                    },
+                    {
+                      "type": {
+                        "name": "Сервис",
+                        "keyName": "SERVICE"
+                      },
+                      "children": [],
+                      "code": "local_outgoing",
+                      "name": "Местная исходящая связь"
+                    }
+                  ],
+                  "code": "telephone_service",
+                  "name": "Профиль абонента телефонии"
+                }
+              ],
+              "isRoot": false,
+              "productName": "Местная телефонная связь",
+              "productCode": "MESTNAYA_SVYAZ"
+            },
+            {
+              "type": {
+                "name": "Продукт",
+                "keyName": "SIMPLE_PRODUCT"
+              },
+              "children": [
+                {
+                  "type": {
+                    "name": "Сервис",
+                    "keyName": "SERVICE"
+                  },
+                  "children": [
+                    {
+                      "type": {
+                        "name": "Сервис",
+                        "keyName": "SERVICE"
+                      },
+                      "children": [],
+                      "name": "Абонентская линия TDM"
+                    }
+                  ],
+                  "code": "copper_access",
+                  "name": "Абонентская линия"
+                }
+              ],
+              "isRoot": false,
+              "productName": "Доступ по медной линии Телефония",
+              "productCode": "PROCHIE_PROFILNYE_USLUGI"
+            }
+          ],
+          "isRoot": true,
+          "productName": "Фиксированная телефония Безлимитный тест",
+          "productCode": "PHONE_GROUP"
+        },
+        {
+          "type": {
+            "name": "Продукт",
+            "keyName": "COMPOSITE_PRODUCT"
+          },
+          "children": [
+            {
+              "type": {
+                "name": "Продукт",
+                "keyName": "COMPOSITE_PRODUCT"
+              },
+              "children": [
+                {
+                  "type": {
+                    "name": "Продукт",
+                    "keyName": "SIMPLE_PRODUCT"
+                  },
+                  "children": [
+                    {
+                      "type": {
+                        "name": "Сервис",
+                        "keyName": "SERVICE"
+                      },
+                      "children": [],
+                      "code": "intercity_calls",
+                      "name": "Междугородная связь"
+                    }
+                  ],
+                  "isRoot": false,
+                  "productName": "Междугородная связь - Базовый",
+                  "productCode": "MEZHDUGORODNAYA_SVYAZ"
+                }
+              ],
+              "isRoot": false,
+              "productName": "Междугородная связь",
+              "productCode": "MEZHDUGORODNAYA_SVYAZ"
+            },
+            {
+              "type": {
+                "name": "Продукт",
+                "keyName": "COMPOSITE_PRODUCT"
+              },
+              "children": [
+                {
+                  "type": {
+                    "name": "Продукт",
+                    "keyName": "SIMPLE_PRODUCT"
+                  },
+                  "children": [
+                    {
+                      "type": {
+                        "name": "Сервис",
+                        "keyName": "SERVICE"
+                      },
+                      "children": [],
+                      "code": "international_calls",
+                      "name": "Международная связь"
+                    }
+                  ],
+                  "isRoot": false,
+                  "productName": "Международная связь - Базовый",
+                  "productCode": "MEZHDUNARODNAYA_SVYAZ"
+                }
+              ],
+              "isRoot": false,
+              "productName": " Международная связь",
+              "productCode": "MEZHDUNARODNAYA_SVYAZ"
+            },
+            {
+              "type": {
+                "name": "Продукт",
+                "keyName": "SIMPLE_PRODUCT"
+              },
+              "children": [
+                {
+                  "type": {
+                    "name": "Сервис",
+                    "keyName": "SERVICE"
+                  },
+                  "children": [],
+                  "code": "telephone_service",
+                  "name": "Профиль абонента телефонии"
+                }
+              ],
+              "isRoot": false,
+              "productName": "Фиксированная телефония",
+              "productCode": "FIKSIROVANNAYA_SVYAZ"
+            }
+          ],
+          "isRoot": true,
+          "productName": "Зоновая связь"
+        },
+        {
+          "type": {
+            "name": "Продукт",
+            "keyName": "SIMPLE_PRODUCT"
+          },
+          "children": [
+            {
+              "type": {
+                "name": "Сервис",
+                "keyName": "SERVICE"
+              },
+              "children": [
+                {
+                  "type": {
+                    "name": "Сервис",
+                    "keyName": "SERVICE"
+                  },
+                  "children": [
+                    {
+                      "type": {
+                        "name": "Сервис",
+                        "keyName": "SERVICE"
+                      },
+                      "children": [],
+                      "name": "Счет"
+                    },
+                    {
+                      "type": {
+                        "name": "Сервис",
+                        "keyName": "SERVICE"
+                      },
+                      "children": [],
+                      "name": "Счет-фактура"
+                    },
+                    {
+                      "type": {
+                        "name": "Сервис",
+                        "keyName": "SERVICE"
+                      },
+                      "children": [],
+                      "name": "Акт выполненных работ"
+                    },
+                    {
+                      "type": {
+                        "name": "Сервис",
+                        "keyName": "SERVICE"
+                      },
+                      "children": [],
+                      "name": "Информационное письмо"
+                    }
+                  ],
+                  "name": "Перечень документов"
+                },
+                {
+                  "type": {
+                    "name": "Сервис",
+                    "keyName": "SERVICE"
+                  },
+                  "children": [
+                    {
+                      "type": {
+                        "name": "Сервис",
+                        "keyName": "SERVICE"
+                      },
+                      "children": [
+                        {
+                          "type": {
+                            "name": "Сервис",
+                            "keyName": "SERVICE"
+                          },
+                          "children": [],
+                          "name": "Архивирование документов комплекта для e-mail"
+                        }
+                      ],
+                      "name": "E-mail"
+                    }
+                  ],
+                  "name": "Канал доставки"
+                }
+              ],
+              "name": "Комплект"
+            }
+          ],
+          "isRoot": true,
+          "productName": "Конфигурирование периодического комплекта РПД",
+          "productCode": "NEPROFILNYE USLUGI"
+        }
+      ],
+      "type": {
+        "name": "Лицевой счет",
+        "keyName": "ACCOUNT"
+      }
+    }
+  ]
+}
